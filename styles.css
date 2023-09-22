@@ -1,0 +1,399 @@
+body {
+  background-color: #164057;
+  font-family: Roboto;
+  font-style: normal;
+  margin: 0%;
+  color: #ffffff;
+}
+
+.title {
+  opacity: 0;
+  padding-left: 25%;
+  padding-right: 25%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: #ffffff;
+}
+
+/*style home*/
+.navbar {
+  background-color: #1e5e81;
+  margin: 0px;
+  color: #ffffff;
+  padding-top: 0.7%;
+  font-weight: 200;
+}
+.navbar h3 {
+  font-size: 25px;
+  margin: 0%;
+  float: right;
+  padding-top: 10px;
+  padding-right: 4.1%;
+}
+.navbar a {
+  margin-left: 45px;
+  position: relative;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 200;
+}
+.navbar a:hover {
+  color: grey;
+}
+.navbar img {
+  width: 47px;
+  margin: 0% 0% 0.5% 4.6%;
+}
+.header {
+  opacity: 1;
+  font-family: Roboto;
+  color: #ffffff;
+  padding-left: 6%;
+}
+.redirect {
+  float: right;
+}
+.himtiworkshop {
+  position: absolute;
+  width: 1271px;
+  height: 331px;
+  left: 85px;
+  top: 179px;
+}
+.himtiworkshop h1 {
+  padding-left: 0%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 132px;
+  line-height: 86px;
+  text-align: left;
+  color: #ffffff;
+}
+.draw {
+  width: 83%;
+  height: 10%;
+  margin-top: 150px;
+  margin-bottom: 60px;
+  transform: scale(1.3);
+  object-fit: cover;
+  text-align: right;
+}
+.moremore {
+  position: absolute;
+  width: 265px;
+  height: 79px;
+  top: 595px;
+  font-size: 22px;
+  background: #1e5e81;
+  border-radius: 41px;
+  text-align: center;
+}
+
+.moremore:hover {
+  background-color: #0f3244;
+}
+
+/*style event*/
+.events {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.workshop1 {
+  width: 27%;
+
+  margin-left: 7%;
+}
+
+.workshop2 {
+  width: 27%;
+
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.workshop3 {
+  width: 27%;
+}
+
+.atas {
+  width: 100%;
+  height: 175%;
+  background: #ffffff;
+  border-radius: 25px 25px 0px 0px;
+}
+.bawah {
+  width: 100%;
+  height: auto;
+  background: #1e5e81;
+  border-radius: 25px;
+}
+.imgevent {
+  margin: 8%;
+  width: 80%;
+}
+.workshop_Title {
+  margin: 1%;
+  padding-top: 5%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 37px;
+  /* identical to box height */
+
+  text-align: center;
+  color: #ffffff;
+}
+.workshop_text {
+  margin: 1%;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  padding-right: 5%;
+  padding-left: 5%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 30px;
+  /* or 150% */
+
+  text-align: center;
+  color: #ffffff;
+}
+
+/*aboutus*/
+.aboutUs {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.imgaboutus {
+  width: 15%;
+  height: 15%;
+  padding-left: 15px;
+  float: left;
+  margin-left: 15%;
+}
+
+.aboutUs_isi {
+  float: left;
+  padding-right: 455px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 30px;
+  margin: 3% 4% 9% 8%;
+}
+
+.Center {
+  text-align: center;
+}
+.box {
+  top: 0px;
+  height: 74px;
+  width: 783px;
+  left: 85px;
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+  background: #ffffff;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+.submit {
+  top: -0.5px;
+  height: 76px;
+  width: 171px;
+  left: -79px;
+  position: relative;
+  background: #1e5e81;
+  border-radius: 0px 30px 30px 0px;
+  font-size: 20px;
+  color: #ffffff;
+  border: #1e5e82;
+}
+
+.submit:active {
+  background-color: #0f3244;
+}
+
+.line1 {
+  grid-area: c1;
+}
+.line2 {
+  width: 50px;
+  grid-area: c2;
+}
+.text1 {
+  grid-area: p1;
+}
+.text2 {
+  grid-area: p2;
+}
+
+.cp {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-left: 70px;
+  margin: 4% 7% 8% 10%;
+}
+.cont {
+  font-size: 90%;
+  margin: 5% 5% 10% 8%;
+  float: left;
+}
+
+.line {
+  font-size: 100%;
+  float: left;
+  margin: 3% 3% 3% 18%;
+}
+
+.line .img {
+  float: left;
+}
+.line h4 {
+  float: right;
+  margin: 0%;
+  padding-right: 20px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.linee {
+  font-size: 100%;
+  float: left;
+  margin: 3% 4.2% 0% 14%;
+}
+
+.linee .img {
+  float: left;
+}
+
+.linee h4 {
+  float: right;
+  margin: 0%;
+  padding: 0%;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+/*footer*/
+.footer {
+  width: 100%;
+  left: 0px;
+  margin-top: 10%;
+  padding-top: 2%;
+  background: #1e5e81;
+}
+.himtifooter {
+  width: 19%;
+  padding-left: 5%;
+  float: left;
+}
+
+.binusfooter {
+  width: 19%;
+  padding-top: 3.7%;
+  margin-top: 2.6%;
+}
+.copyright {
+  margin-top: 5%;
+  text-align: center;
+  padding-bottom: 2%;
+  margin-bottom: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.instagram {
+  margin: auto;
+  width: 145px;
+  height: 30px;
+  left: 1135px;
+  top: 3040px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 30px;
+  text-align: right;
+  color: #ffffff;
+}
+
+.youtube {
+  margin: auto;
+  width: 140px;
+  height: 30px;
+  left: 1135px;
+  top: 3089px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 30px;
+  /* identical to box height, or 125% */
+  color: #ffffff;
+}
+
+.tiktok {
+  margin: auto;
+  width: 134px;
+  height: 30px;
+  left: 1135px;
+  top: 3137px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 30px;
+  /* identical to box height, or 125% */
+  color: #ffffff;
+}
+
+.sosmed {
+  float: right;
+  margin-right: 5%;
+  display: flex;
+  height: 50%;
+  margin-top: 2%;
+  width: 30%;
+}
+
+.logososmed {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  width: 3.5%;
+  height: 23%;
+}
+.logososmed img {
+  width: 60%;
+  margin-top: 65%;
+}
+
+.namasosmed {
+  float: right;
+  display: flex;
+  padding-left: 0.1%;
+  padding-right: 6%;
+  font-size: 22px;
+  flex-direction: column;
+}
+.namasosmed h6 {
+  margin-top: 22%;
+  margin-bottom: 0%;
+  font-size: 1.6vw;
+}
